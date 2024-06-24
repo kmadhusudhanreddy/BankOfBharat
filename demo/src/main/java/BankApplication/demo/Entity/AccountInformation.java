@@ -24,6 +24,6 @@ public class AccountInformation
     private  String stateOfOrigin ;
     private String accountNumber ;
     private  String password ;
-    public AccountInformation(String accountId, String accountHolderName, String phoneNo, String emailId, String gender, String stateOfOrigin, String accountNumber) {
-    }
+    private double accountBalance ;
+
 }

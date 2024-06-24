@@ -1,0 +1,14 @@
+package BankApplication.demo.Dao;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CreditResponse {
+    private  String accountNo ;
+    private String  message ;
+    private double money ;
+}

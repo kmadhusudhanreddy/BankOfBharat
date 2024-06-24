@@ -11,4 +11,11 @@ public interface AccountService  {
     AccountDeleteResponse deleteAccount(AccountDeleteRequest accountDeleteRequest);
 
     AccountDetailsResponse getAccountDetails(String accNo , String password) ;
+
+     CreditResponse creditMoney(CreditMoneyRequest creditMoneyRequest);
+
+     DebitResponse debitMoney(DebitMoneyRequest debitMoneyRequest) ;
+
+     BalanceEnquiryResponse  balance_enquiry(BalanceEnquiryRequest balanceEnquiryRequest);
+
 }
